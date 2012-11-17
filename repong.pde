@@ -192,6 +192,8 @@ void setup() {
     fs.enter();
   }
   background(0);
+  
+  setupTimer();
 }
 
 // Main loop, switch to the current state
@@ -218,6 +220,7 @@ void draw() {
     gameOverLoop();
     break;
   }
+  updateTimerStatus();
 }
 
 void updateGameState(int newGameState) {

@@ -13,6 +13,7 @@ class AICtrl extends BaseCtrl {
   
   int inactivityThreshold;
   
+  
   Ball ball;
 
   AICtrl(Ball _ball) {
